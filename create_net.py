@@ -4,6 +4,9 @@ import sklearn.model_selection as skms
 from sklearn.neural_network import MLPClassifier
 
 
+np.random.seed(2018)
+
+
 def eight_bit(number):
     return bin(number)[2:].zfill(8)
 
