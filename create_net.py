@@ -57,8 +57,7 @@ X = np.array(list(map(lambda x: [int(_) for _ in x], X)))
 
 X_train, X_test, y_train, y_test = skms.train_test_split(X, res, test_size=0.4)
 
-clf = MLPClassifier(hidden_layer_sizes=(200,), verbose=True)
-
+clf = MLPClassifier(hidden_layer_sizes=(100, 200), max_iter=28, verbose=True)
 clf.fit(X_train, y_train)
 
 print(skm.accuracy_score(y_test, clf.predict(X_test)))
