@@ -14,3 +14,7 @@ The sky is the limit!
 
 - Use Tensorflow with TPU's to speed up the calculations.
 - Replace ALU's in CPU's to use this highly optimized eight bit adder.
+
+
+## Known limitations
+The only know limitation is that the program is not installable on Nokia 3310. There is no reason to suspect that it isn't installable on any other device though.
