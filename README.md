@@ -17,4 +17,4 @@ The sky is the limit!
 
 
 ## Known limitations
-The only know limitation is that the program is not installable on Nokia 3310. There is no reason to suspect that it isn't installable on any other device though.
+The only known limitation is that the program is not installable on Nokia 3310. There is no reason to suspect that it isn't installable on any other device though.
